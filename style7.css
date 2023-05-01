@@ -1,0 +1,510 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: .2s linear;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth; 
+}
+.main-container{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images3/lagos2.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 2rem 7%;
+	align-items: center;
+}
+.main-container .header .waterways{
+	width: 5%;
+}
+.header .navbar a{
+	font-size: 1.7rem;
+	margin-left: 5rem;
+	color: gold;
+	text-decoration: none;
+}
+.header .navbar a:hover{
+	background: lightblue;
+	padding: .5rem 3rem;
+	border-radius: 15px;
+}
+#menu-bars{
+	color: white;
+	font-size: 2rem;
+	display: none;
+}
+.navbar.active{
+	top: 10%
+}
+.background-text h2{
+	color: gold;
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.background-text h2 span{
+	color: lightblue;
+}
+.boat-image{
+	width: 50%;
+	margin: 0 auto;
+}
+.boat-image img{
+	width: 100%;
+	margin-top: 200px;
+}
+.home-container{
+	background: lightblue;
+	padding: 2rem 7%;
+	width: 100%;
+	padding-top: 6rem;
+}
+.home-content{
+	padding-top: 4rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.inner-content{
+	flex: 1 1 45rem;
+	padding: 2rem;
+}
+.inner-content h3{
+	font-size: 31px;
+}
+.inner-content h2{
+	font-size: 38px;
+}
+.inner-content p{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+.inner-content .booknow{
+	padding: 1rem 3rem;
+	color: gold;
+	font-size: 1.5rem;
+}
+.inner-content .booknow:hover{
+	padding: 1.5rem 3rem;
+	border: 2px solid white;
+	border-radius: 15px;
+	background: black;
+}
+.form-heading{
+	text-align: center;
+	background: black;
+	padding: 2rem 0;
+}
+.form-heading h1{
+	color: white;
+}
+.contact-form{
+	width: 45rem;
+	background: white;
+	text-align: center;
+	padding: 2rem 1rem;
+	margin: 0 auto;
+}
+.form-fields input{
+	padding: 2rem;
+	border: none;
+	border-bottom: 1px solid black;
+}
+.contact-form a{
+	background: black;
+	width: 100%;
+	display: inline-block;
+	padding: 2rem 0;
+	color: white;
+	font-size: 1.5rem;
+}
+.submit{
+	padding-top: 2rem;
+}
+.main-tariff{
+	padding: 3rem 7%;
+}
+.main-tariff h1{
+	font-size: 38px;
+	text-align: center;
+	padding-bottom: 6rem;
+}
+.main-tariff h1 span{
+	color: lightblue;
+}
+.inner-tarrif{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+}
+.tarrif-container{
+	flex: 1 1 250px;
+	text-align: center;
+}
+.tarrif-container img{
+	width: 60%;
+}
+.tarrif-container .inner-box p{
+	font-size: 1.5rem;
+	padding: 2rem;
+}
+.tarrif-container .inner-box h3{
+	color: lightblue;
+	font-size: 2rem;
+}
+.tarrif-container .inner-box{
+	font-size: 1.5rem;
+	padding: 1rem 3rem;
+}
+.tarrif-container:nth-child(2){
+	background: lightblue;
+}
+.heading-yellow{
+	color: black;
+}
+.yellow-section{
+	color: black !important;
+}
+.tarrif-container a{
+	color: white;
+	padding: 1rem;
+	background: gold;
+	display: inline-block;
+	margin-top: 1rem;
+}
+.fast-booking{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images3/lagos.jpg);
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+.fast-booking .fast-hading{
+	color: lightblue;
+	font-size: 38px;
+	text-align: center;
+	padding-top: 2rem;
+}
+.fast-booking h2{
+	font-size: 31px;
+	color: white;
+	text-align: center;
+}
+.inner-fast{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	grid-gap: 15px;
+	padding: 3rem 7%;
+	align-items: center;
+}
+.booking-content{
+	flex: 1 1 45rem;
+}
+.booking-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.inner-fast-text h1{
+	font-size: 22px;
+	color: lightblue;
+	padding: 2rem;
+}
+.inner-fast-text p{
+	font-size: 1.5rem;
+	padding: 2rem;
+}
+.icon-fast{
+	background: lightblue;
+	width: 50px;
+	height: 30px;
+	border-radius: 150px;
+	text-align: center;
+}
+.icon-fast span i{
+	line-height: 40px;
+	font-size: 1.5rem;
+}
+.testimonials{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images3/happy.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+.testimonials .heading-test{
+	color: lightblue;
+	font-size: 38px;
+	padding: 2rem;
+	text-align: center;
+}
+.main-testominials{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+}
+.inner-test{
+	flex: 1 1 45rem;
+	color: #fff;
+	padding: 2rem;
+}
+.inner-test p{
+	font-size: 1.5rem;
+	padding: 2rem;
+	color: lightblue;
+}
+.clients{
+	display: flex;
+	align-items: center;	
+}
+.clients h1{
+	color: gold;
+	margin-left: 1rem;
+}
+.profile{
+	width: 100px;
+	border-radius: 50px;
+}
+.boat{
+	font-size: 1.5rem;
+	color: gold;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.at{
+	color: lightblue;
+}
+#water{
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+}
+
+
+
+
+ 		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+  		body{
+  			line-height: 1.5;
+  			font-family: 'Poppins', sans-serif;
+  		}
+  		*{
+  			margin:0;
+  			padding:0;
+  			box-sizing: border-box;
+  		}
+  		.container{
+  			max-width: 1170px;
+  			margin:auto;
+  		}
+  		.row{
+  			display: flex;
+  			flex-wrap: wrap;
+  		}
+  		ul{
+  			list-style: none;
+  		}
+
+		.footer{
+			background-color: #24262b;
+			padding: 70px 0;
+		}
+		.footer-col{
+			width: 25%;
+			padding: 0 15px;
+		}
+		.footer-col h4{
+			font-size: 18px;
+			color: #ffffff;
+			text-transform: capitalize;
+			margin-bottom: 35px;
+			font-weight: 500px;
+			position: relative;
+		}
+		.footer-col h4::before{
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: -10px;
+			background-color: #e91e63;
+			height: 2px;
+			box-sizing: border-box;
+			width: 100px;
+		}
+		.footer-col ul li:not(:last-child){
+			margin-bottom: 10px;
+		}
+		.footer-col ul li a{
+			font-size: 16px;
+			text-transform: capitalize;
+			color:#ffffff;
+			text-decoration: none;
+			font-weight: 300;
+			color:#bbbbbb;
+			display: block;
+			transition: all 0.3s ease;
+		}
+		.footer-col ul li a:hover{
+			color: #ffffff;
+			padding-left: 8px;
+		}
+		.footer-col .social-links a{
+			display: inline-block;
+			height: 40px;
+			width: 40px;
+			background-color: rgba(255,255,255,0.2);
+			margin:0 10px 10px 0;
+			text-align: center;
+			line-height: 40px;
+			border-radius: 50%;
+			color: #ffffff;
+			transition: all 0.5s ease;
+		}
+		.footer-col .social-links a:hover{
+			color: #24262b;
+			background-color: #ffffff
+
+		}
+
+		/*responsive*/
+		@media(max-width: 767px){
+			.footer-col {
+				width: 50%;
+				margin-bottom: 30px;
+			}
+		}
+		@media(max-width: 574px){
+			.footer-col {
+				width:100px;
+			}
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+	html{
+		font-size: 50%;
+	}
+	#menu-bars{
+		display: initial;
+	}
+	.navbar{
+		position: absolute;
+		top: -100%;
+		right: 0;
+		left: 0;
+		width: 100%;
+	}
+	.navbar a{
+		display: block;
+		font-size: 1.5rem;
+		background: lightblue;
+		margin: 1rem;
+		padding: 1rem;
+	}
+	.header{
+		padding: 2rem;
+	}
+	.tarrif-container{
+		padding-bottom: 4rem;
+	}
+	.tarrif-container img{
+		width: 60%;
+		margin-top: 6px;
+	}
+}
